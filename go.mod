@@ -26,5 +26,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/driver/mysql v1.3.6 // 
+	gorm.io/driver/mysql v1.3.6 //
 )
+
+require github.com/stretchr/testify v1.8.0 
