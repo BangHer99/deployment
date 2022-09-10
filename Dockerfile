@@ -8,6 +8,6 @@ WORKDIR /app
 
 COPY ./ /app
 
-RUN go build -o /Alta-project2
+RUN go build -o /be11-api
 
-CMD ["./Alta-project2"]
+CMD ["./be11-api"]
