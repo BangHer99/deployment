@@ -8,6 +8,6 @@ WORKDIR /app
 
 COPY ./ /app
 
-RUN go build -o /be11-api
+RUN go build -o ccid-fix
 
-CMD ["./be11-api"]
+CMD ["./ccid-fix"]
